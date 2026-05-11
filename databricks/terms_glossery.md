@@ -24,3 +24,5 @@ They are also able to manage the entire ML lifecycle with MLflow.
 
 
 - **Data Governance**: Enterprises can use Unity Catalog as a single tool to manage premissions for both data objects and models.
+
+

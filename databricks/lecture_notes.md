@@ -1,0 +1,11 @@
+## Databricks -> we'll go through:
+- medallion
+- Genie
+- data intelligence platform
+- pyspark
+- Unity catalog
+- LakeFlow
+- Spark declarative pipline
+- Data lineage
+- ELT/ETL
+- data pipelines
