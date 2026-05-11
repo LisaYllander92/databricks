@@ -1,4 +1,5 @@
-## Databricks -> we'll go through:
+# Lecture 1 - intro
+## Databricks (4 weeks) -> we'll go through:
 - medallion
 - Genie
 - data intelligence platform
@@ -9,3 +10,5 @@
 - Data lineage
 - ELT/ETL
 - data pipelines
+
+## Azure (2 weeks)
