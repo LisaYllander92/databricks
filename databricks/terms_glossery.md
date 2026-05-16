@@ -38,14 +38,14 @@ They are also able to manage the entire ML lifecycle with MLflow.
 | unity catalog                       |Unity Catalog is a unified governance layer for the Databricks Data Intelligence Platform that provides centralized access control, auditing, and data lineage across your entire cloud infrastructure. It acts as a single "source of truth" to securely manage and discover all your data, AI models, and files in one place.             |
 | data lakehouse                      |Provides scalable storage and processing capabilities for modern organizations that want to avoid isolated systems for processing different workloads, like machine learning (ML) and business intelligence (BI). A data lakehouse can help establish a single source of truth, eliminate redundant costs, and ensure data freshness.             |
 | delta table                         |An optimized storage layer that brings reliability to data lakes by using a transaction log to manage data through ACID transactions and versioning. It allows you to treat large collections of cloud files like a traditional database, enabling powerful features like "time travel" (data versioning) and schema enforcement.             |
-| lakeflow jobs                       |             |
-| spark                               |             |
+| lakeflow jobs                       |A Databricks feature for orchestrating and scheduling workflows. You can chain together notebooks, pipelines, and scripts to run automatically — either on a schedule or triggered by an event.             |
+| spark                               |An open-source distributed computing framework designed to process large amounts of data fast. Instead of running on one computer, Spark splits the work across many computers (a cluster) at the same time.             |
 | pyspark                             |The Python API/bridge for Apache Spark. It enables you to preform real-time, large-scale data processing in a distributed enviorment using Python.|
-| data intelligence platform          |             |
-| medallion                           |             |
-| ginie                               |             |
-| spark declarative pipline           |             |
-| data linage                         |             |
+| data intelligence platform          |Databricks' name for their overall platform. It combines data storage, data processing, machine learning, and AI in one place — with an "intelligent" layer on top that helps users find, understand, and work with their data using AI.             |
+| medallion                           |A data design pattern used to organize data in layers, where each layer improves the quality of the data. Named after medals because the layers are called Bronze, Silver, and Gold.             |
+| ginie                               |An AI-powered assistant in Databricks that lets you ask questions about your data. You just type a question like "what is the average price per neighborhood?" and Genie writes and runs the query for you.             |
+| spark declarative pipline           |A framework in Databricks for building data pipelines where you describe what you want the data to look like, not how to process it step by step. Databricks handles the execution, error handling, and scheduling automatically.             |
+| data linage                         |A way to track where data comes from, how it has been transformed, and where it ends up. It shows the complete journey of data — from source to final table. In Databricks you can see this visually under the "Lineage" tab in Catalog.             |
 
 
 
